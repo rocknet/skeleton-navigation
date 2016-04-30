@@ -4,7 +4,9 @@ System.config({
   paths: {
     "*": "dist/*",
     "github:*": "jspm_packages/github/*",
-    "npm:*": "jspm_packages/npm/*"
+    "npm:*": "jspm_packages/npm/*",
+    "kendo-ui/*": "vendors/*",
+    "kendo.*": "vendors/js/kendo.*.js"
   },
   map: {
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.0-beta.1.2.0",
