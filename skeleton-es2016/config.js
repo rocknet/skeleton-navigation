@@ -24,6 +24,7 @@ System.config({
     "aurelia-templating-resources": "npm:aurelia-templating-resources@1.0.0-beta.1.2.2",
     "aurelia-templating-router": "npm:aurelia-templating-router@1.0.0-beta.1.2.0",
     "bootstrap": "github:twbs/bootstrap@3.3.6",
+    "css": "github:systemjs/plugin-css@0.1.21",
     "fetch": "github:github/fetch@0.11.0",
     "font-awesome": "npm:font-awesome@4.6.1",
     "text": "github:systemjs/plugin-text@0.0.3",
