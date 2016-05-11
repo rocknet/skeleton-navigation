@@ -1,0 +1,17 @@
+<template>
+    <section>
+        <br>
+        <h3>Basic KendoUI Chart sample</h3>
+        <a href="https://github.com/aurelia-ui-toolkits/aurelia-kendoui-plugin/tree/master/sample/src/samples/chart">See KendoUI Bridge chart folder for more details</a>
+        <br>
+        <br>
+        <ak-chart    k-title.bind="{text: 'Gross Domestic product growth \n /GDP annual %/'}"
+                    k-legend.bind="{position: 'bottom'}"
+                    k-series-defaults.bind="seriesDefaults"
+                    k-series.bind="series"
+                    k-value-axis.bind="valueAxis"
+                    k-category-axis.bind="categoryAxis"
+                    k-tooltip.bind="tooltip">
+        </ak-chart>
+    </section>
+</template>
