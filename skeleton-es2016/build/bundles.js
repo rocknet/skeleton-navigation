@@ -6,7 +6,7 @@ module.exports = {
         "**/*.html!text",
         "**/*.css!text",
         "[aurelia-kendoui-bridge]",
-        "[aurelia-kendoui-bridge/**/*]",
+        "[aurelia-kendoui-bridge/**/*.js]",
         "aurelia-kendoui-bridge/**/*.html!text"
       ],
       "options": {
