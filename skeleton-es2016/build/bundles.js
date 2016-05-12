@@ -4,7 +4,10 @@ module.exports = {
       "includes": [
         "[**/*.js]",
         "**/*.html!text",
-        "**/*.css!text"
+        "**/*.css!text",
+        "[aurelia-kendoui-bridge]",
+        "[aurelia-kendoui-bridge/**/*]",
+        "aurelia-kendoui-bridge/**/*.html!text"
       ],
       "options": {
         "inject": true,
