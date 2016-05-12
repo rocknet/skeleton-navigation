@@ -18,21 +18,20 @@ module.exports = {
     },
     "dist/kendo-build": {
       "includes": [ 
-        "kendo-ui/js/*.min.js",
+        "kendo-ui/js/*.js",
         "kendo-ui/styles/kendo.common.min.css!text",
-        "kendo-ui/styles/kendo.bootstrap.min.css!text" 
+        "kendo-ui/styles/kendo.blueopal.min.css!" 
       ],
       "excludes": [
-        "kendo-ui/js/angular.min.js",
-        "kendo-ui/js/jquery.min.js",
-        "kendo-ui/js/kendo.angular.min.js",
-        "kendo-ui/js/kendo.angular2.min.js",
-        "kendo-ui/js/kendo.spreadsheet.min.js",
-        "kendo-ui/js/kendo.all.min.js",
-        "kendo-ui/js/kendo.web.min.js",
-        "kendo-ui/js/kendo.dataviz.min.js",
-        "kendo-ui/js/kendo.dataviz.mobile.min.js",
-        "kendo-ui/js/kendo.mobile.min.js"
+        "kendo-ui/js/jquery.js",
+        "kendo-ui/js/kendo.angular.js",
+        "kendo-ui/js/kendo.angular2.js",
+        "kendo-ui/js/kendo.spreadsheet.js",
+        "kendo-ui/js/kendo.all.js",
+        "kendo-ui/js/kendo.web.js",
+        "kendo-ui/js/kendo.dataviz.js",
+        "kendo-ui/js/kendo.dataviz.mobile.js",
+        "kendo-ui/js/kendo.mobile.js"
       ],
       "options": {
         "inject": true,
